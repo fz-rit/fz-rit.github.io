@@ -100,24 +100,45 @@
 							<li><a href="#" class="button">Full Portfolio</a></li>
 						</ul>
 					</section>
-
-				<!-- Three -->
-					<section id="three">
+                <!-- Three -->
+                    <section id="education">
+                        <h2>Education</h2>
+                        <div class="row">
+                            <article class="col-6 col-12-xsmall education-item">
+                                <h3>Ph.D. in Imaging Science</h3>
+                                <p>Rochester Institute of Technology, 2022</p>
+                            </article>
+                            <article class="col-6 col-12-xsmall education-item">
+                                <h3>Master of Science in Optical Engineering</h3>
+                                <p>Zhejiang University, 2018</p>
+                            </article>
+                            <article class="col-6 col-12-xsmall education-item">
+                                <h3>Bachelor of Science in Optical Information Science and Technology</h3>
+                                <p>Wuhan University, 2015</p>
+                            </article>
+                        </div>
+                    </section>
+				<!-- Four -->
+					<section id="four">
 						<h2>Get In Touch</h2>
-						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+						<p>Feel free to leave me a message!</p>
 						<div class="row">
-							<div class="col-8 col-12-small">
-								<form method="post" action="#">
-									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-									</div>
-								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</div>
+							<form method="POST" action="https://formspree.io/f/xgvopdpo">
+                                <div class="row gtr-uniform gtr-50">
+                                    <div class="col-6 col-12-xsmall">
+                                        <input type="text" name="name" id="name" placeholder="Name" required />
+                                    </div>
+                                    <div class="col-6 col-12-xsmall">
+                                        <input type="email" name="email" id="email" placeholder="Email" required />
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea name="message" id="message" placeholder="Message" rows="4" required></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="submit" value="Send Message" />
+                                    </div>
+                                </div>
+                            </form>                            
 							<div class="col-4 col-12-small">
 								<ul class="labeled-icons">
 									<li>
